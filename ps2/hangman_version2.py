@@ -361,7 +361,6 @@ def hangman_with_hints(secret_word):
             print('You have', num_warn, 'warnings left')
             print('Available letters:', get_available_letters(letters_guessed))
             letter = input('Please guess a letter, or use * to show all possible words left:')
-            print(letters_guessed)
         while is_letter_valid(letter) is True: # while the guessed character is a
             # valid letter
             if is_letter_in_word(secret_word, letter) is True:
