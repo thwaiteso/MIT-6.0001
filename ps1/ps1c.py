@@ -66,3 +66,4 @@ while True:
 # Help needed for part c, using:
 # https://github.com/tuthang102/MIT-6.0001-Intro-to-CS/blob/master/ps1/ps1c.py
 # for inspiration.
+# Comments are my own.
